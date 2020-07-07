@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="kk">
+      <UniqueIdentifier>{6732bbd7-f856-4e85-8f50-212525640b8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="unicorn_pe.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="except.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="kk\kk.cpp">
+      <Filter>kk</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="nativestructs.h">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="iat.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kk\kk.h">
+      <Filter>kk</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

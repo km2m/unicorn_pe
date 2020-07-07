@@ -1093,8 +1093,15 @@ void PeEmulation::FlushMemMapping(void)
 	}
 }
 
+extern int kk_main(int argc, char** argv);
+
 int main(int argc, char **argv)
 {
+	int status = kk_main(argc, argv);
+	if (status == 0) {
+		return status;
+	}
+
 	using namespace blackbone;
 
 	PeEmulation ctx;

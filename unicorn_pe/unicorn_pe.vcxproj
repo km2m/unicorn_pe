@@ -168,11 +168,13 @@
     <ClCompile Include="buffer.cpp" />
     <ClCompile Include="encode.cpp" />
     <ClCompile Include="except.cpp" />
+    <ClCompile Include="kk\kk.cpp" />
     <ClCompile Include="unicorn_pe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="emuapi.h" />
     <ClInclude Include="iat.h" />
+    <ClInclude Include="kk\kk.h" />
     <ClInclude Include="nativestructs.h" />
     <ClInclude Include="ucpe.h" />
   </ItemGroup>
